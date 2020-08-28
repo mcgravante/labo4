@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'labo4';
+  public edadUno = 0;
+  public edadDos = 0;
+  public resultSuma = 0;
+  public resultPromedio = 0;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  Suma() {
+    this.resultSuma = this.edadUno + this.edadDos;
+  }
+
+  Promedio() {
+    this.resultPromedio = (this.edadUno + this.edadDos)/2;
+  }
+
+  CalcularClick() {
+    this.Suma();
+    this.Promedio();
+  }
 }
+
