@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
+import { ErrorComponent } from './componentes/error/error.component';
 
 
 
@@ -12,7 +14,9 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    BienvenidoComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

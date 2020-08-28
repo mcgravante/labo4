@@ -28,5 +28,11 @@ export class AppComponent {
     this.Suma();
     this.Promedio();
   }
+
+  LimpiarClick() {
+     this.edadUno = 0;
+     this.edadDos = 0;
+     this.resultSuma = 0;
+     this.resultPromedio = 0;  }
 }
 
