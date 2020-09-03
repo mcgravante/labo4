@@ -7,6 +7,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { ErrorComponent } from './componentes/error/error.component';
+import { CalculoComponent } from './componentes/calculo/calculo.component';
 
 
 
@@ -16,7 +17,8 @@ import { ErrorComponent } from './componentes/error/error.component';
     AppComponent,
     LoginComponent,
     BienvenidoComponent,
-    ErrorComponent
+    ErrorComponent,
+    CalculoComponent
   ],
   imports: [
     BrowserModule,
