@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { CalculoComponent } from './componentes/calculo/calculo.component';
+import { HomeComponent } from './componentes/home/home.component';
 
 
 
@@ -18,7 +19,8 @@ import { CalculoComponent } from './componentes/calculo/calculo.component';
     LoginComponent,
     BienvenidoComponent,
     ErrorComponent,
-    CalculoComponent
+    CalculoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
