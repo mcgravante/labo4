@@ -25,10 +25,10 @@ export class LoginComponent implements OnInit {
   LogIn() {
 
     if (this.nombre === 'juan' && this.clave === 'juan123') {
-      this.router.navigate(['home']);
+      this.router.navigate(['calculo']);
     }
     else {
-      this.router.navigate(['calculo']);
+      this.router.navigate(['error']);
     }
   }
 }
