@@ -1,3 +1,9 @@
 <h1>LogIn</h1>
-
-
+<input type="text" placeholder="Usuario: " [(ngModel)]="nombre" />
+<br>
+<h2>Usar "juan"</h2>
+<input type="password" placeholder="Contraseña: " [(ngModel)]="clave" />
+<br>
+<h2>Usar "juan123" </h2>
+<button value="Ingresar" (click)="LogIn()">Ingresar</button>
+<br/>
