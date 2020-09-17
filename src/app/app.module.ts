@@ -9,6 +9,11 @@ import { BienvenidoComponent } from './componentes/bienvenido/bienvenido.compone
 import { ErrorComponent } from './componentes/error/error.component';
 import { CalculoComponent } from './componentes/calculo/calculo.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { ControlEntidadComponent } from './componentes/control-entidad/control-entidad.component';
+import { ListadoEntidadComponent } from './componentes/listado-entidad/listado-entidad.component';
+import { SignInComponent } from './componentes/signin/signin.component';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 
 
 
@@ -20,9 +25,13 @@ import { HomeComponent } from './componentes/home/home.component';
     BienvenidoComponent,
     ErrorComponent,
     CalculoComponent,
-    HomeComponent
+    HomeComponent,
+    ControlEntidadComponent,
+    ListadoEntidadComponent,
+    SignInComponent
   ],
   imports: [
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserModule,
     AppRoutingModule,
     FormsModule
